@@ -1,0 +1,3 @@
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/E1.dir
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/edit_cache.dir

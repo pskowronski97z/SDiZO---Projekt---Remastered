@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
+string
+-
+
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/main.cpp
+iostream
+-
+headers/MyArray.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
+
