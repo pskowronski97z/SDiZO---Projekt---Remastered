@@ -150,6 +150,33 @@ MyArray.cpp.s:
 	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/MyArray.cpp.s
 .PHONY : MyArray.cpp.s
 
+MyList.o: MyList.cpp.o
+
+.PHONY : MyList.o
+
+# target to build an object file
+MyList.cpp.o:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/MyList.cpp.o
+.PHONY : MyList.cpp.o
+
+MyList.i: MyList.cpp.i
+
+.PHONY : MyList.i
+
+# target to preprocess a source file
+MyList.cpp.i:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/MyList.cpp.i
+.PHONY : MyList.cpp.i
+
+MyList.s: MyList.cpp.s
+
+.PHONY : MyList.s
+
+# target to generate assembly for a file
+MyList.cpp.s:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/MyList.cpp.s
+.PHONY : MyList.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... MyArray.o"
 	@echo "... MyArray.i"
 	@echo "... MyArray.s"
+	@echo "... MyList.o"
+	@echo "... MyList.i"
+	@echo "... MyList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -10,9 +10,15 @@
 string
 -
 
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
+string
+-
+
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/main.cpp
 iostream
 -
 headers/MyArray.h
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
+headers/MyList.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
 

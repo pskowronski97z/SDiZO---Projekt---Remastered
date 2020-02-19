@@ -83,7 +83,13 @@
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyArray.cpp">
 			<Option target="E1"/>
 		</Unit>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyList.cpp">
+			<Option target="E1"/>
+		</Unit>
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h">
+			<Option target="E1"/>
+		</Unit>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h">
 			<Option target="E1"/>
 		</Unit>
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/main.cpp">
