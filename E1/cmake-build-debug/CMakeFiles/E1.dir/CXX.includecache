@@ -10,6 +10,10 @@
 string
 -
 
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyHeap.h
+string
+-
+
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
 string
 -
@@ -21,4 +25,6 @@ headers/MyArray.h
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
 headers/MyList.h
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
+headers/MyHeap.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyHeap.h
 

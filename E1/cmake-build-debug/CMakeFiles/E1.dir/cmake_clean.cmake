@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/E1.dir/MyArray.cpp.o"
+  "CMakeFiles/E1.dir/MyHeap.cpp.o"
   "CMakeFiles/E1.dir/MyList.cpp.o"
   "CMakeFiles/E1.dir/main.cpp.o"
   "E1"

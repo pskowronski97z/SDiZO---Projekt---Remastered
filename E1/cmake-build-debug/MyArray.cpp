@@ -3,11 +3,7 @@
 //
 
 #include "../headers/MyArray.h"
-
-MyArray::MyArray() {
-    size = 0;
-    array = nullptr;
-}
+#include <fstream>
 
 bool MyArray::addAtIndex(int index, int element) {
     int *temp = nullptr;
@@ -62,9 +58,8 @@ std::string MyArray::toString() {
             result.append(std::to_string(array[i]));
             result.append(" ");
         }
-        result.append("\n");
-        return result;
     }
+    result.append("\n");
     return result;
 }
 
@@ -92,4 +87,38 @@ bool MyArray::deleteAtIndex(int index) {
         }
         return true;
     }
+}
+
+void MyArray::clear() {
+    if (!size) {
+        delete[] array;
+        size = 0;
+    }
+}
+
+MyArray::~MyArray() {
+    clear();
+}
+
+bool MyArray::readFromFile(const std::string &filename) {
+    clear();
+    std::fstream fin;
+    fin.open(filename);
+    if (fin.eof() || fin.fail())
+        return false;
+    else {
+        fin >> size;
+        array = new int[size];
+        for (int i = 0; i < size; i++)
+            fin >> array[i];
+    }
+    fin.close();
+    return true;
+}
+
+bool MyArray::isInArray(int value) {
+    for (int i = 0; i < size; i++)
+        if (array[i] == value)
+            return true;
+    return false;
 }

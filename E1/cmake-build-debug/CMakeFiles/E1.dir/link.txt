@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/E1.dir/main.cpp.o CMakeFiles/E1.dir/MyArray.cpp.o CMakeFiles/E1.dir/MyList.cpp.o  -o E1 
+/usr/bin/c++  -g   CMakeFiles/E1.dir/main.cpp.o CMakeFiles/E1.dir/MyArray.cpp.o CMakeFiles/E1.dir/MyList.cpp.o CMakeFiles/E1.dir/MyHeap.cpp.o  -o E1 

@@ -35,6 +35,9 @@ public:
     bool deleteByValue(int value);
     bool deleteByIndex(int index);
     bool insertAtIndex(int index, int element);
+    bool readFromFile(std::string filename);
+    ~MyList();
+    void clear();
 };
 
 #endif //E1_MYLIST_H

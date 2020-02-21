@@ -2,6 +2,7 @@
 // Created by pskowronski on 19.02.2020.
 //
 
+#include <fstream>
 #include "../headers/MyList.h"
 
 void MyList::insertAfter(int prevValue, int element) {
@@ -117,20 +118,32 @@ void MyList::insertAfter(ListNode *prevNode, int element) {
 }
 
 void MyList::deleteAtBegin() {
-    ListNode *buffer;
-    buffer = head;
-    head = head->next;
-    head->prev = nullptr;
-    delete[] buffer;
+    if (size == 1) {
+        delete[] head;
+        head = nullptr;
+        tail = nullptr;
+    } else {
+        ListNode *buffer;
+        buffer = head;
+        head = head->next;
+        head->prev = nullptr;
+        delete buffer;
+    }
     size--;
 }
 
 void MyList::deleteAtTail() {
-    ListNode *buffer;
-    buffer = tail;
-    tail = tail->prev;
-    tail->next = nullptr;
-    delete[] buffer;
+    if (size == 1) {
+        delete[] tail;
+        head = nullptr;
+        tail = nullptr;
+    } else {
+        ListNode *buffer;
+        buffer = tail;
+        tail = tail->prev;
+        tail->next = nullptr;
+        delete buffer;
+    }
     size--;
 }
 
@@ -140,7 +153,7 @@ bool MyList::deleteNode(ListNode *node) {
     else {
         node->prev->next = node->next;
         node->next->prev = node->prev;
-        delete[] node;
+        delete node;
         size--;
     }
     return true;
@@ -178,4 +191,41 @@ bool MyList::deleteByValue(int value) {
     else
         deleteNode(node);
     return true;
+}
+
+void MyList::clear() {
+    ListNode *iterator = head;
+    ListNode *buffer = nullptr;
+    if (size) {
+        while (iterator != nullptr) {
+            buffer = iterator->next;
+            delete iterator;
+            iterator = buffer;
+        }
+        size = 0;
+    }
+}
+
+bool MyList::readFromFile(std::string filename) {
+    clear();
+    std::fstream fin;
+    fin.open(filename);
+    int temp;
+    int buffer;
+    if (fin.eof() || fin.fail())
+        return false;
+    else {
+        fin >> buffer;
+        for (int i = 0; i < buffer; i++) {
+            fin >> temp;
+            addAtTail(temp);
+        }
+    }
+    size = buffer;
+    fin.close();
+    return true;
+}
+
+MyList::~MyList() {
+    clear();
 }

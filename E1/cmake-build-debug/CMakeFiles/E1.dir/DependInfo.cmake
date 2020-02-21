@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyArray.cpp" "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/E1.dir/MyArray.cpp.o"
+  "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyHeap.cpp" "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/E1.dir/MyHeap.cpp.o"
   "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyList.cpp" "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/E1.dir/MyList.cpp.o"
   "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/main.cpp" "/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/CMakeFiles/E1.dir/main.cpp.o"
   )

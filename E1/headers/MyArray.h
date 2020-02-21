@@ -9,18 +9,18 @@
 
 class MyArray {
 private:
-    int size;
-    int *array;
+    int size=0;
+    int *array=nullptr;
+
 public:
-    MyArray();
-
-    bool addAtIndex(int index, int element);
-
-    void addAtTail(int element);
-
-    bool deleteAtIndex(int index);
-
     std::string toString();
+    bool addAtIndex(int index, int element);
+    void addAtTail(int element);
+    bool deleteAtIndex(int index);
+    bool readFromFile(const std::string& filename);
+    void clear();
+    bool isInArray(int value);
+    ~MyArray();
 };
 
 #endif //E1_MYARRAY_H
