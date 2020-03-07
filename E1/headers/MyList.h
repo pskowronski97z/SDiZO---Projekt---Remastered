@@ -20,7 +20,6 @@ private:
     ListNode *tail = nullptr;
     int size = 0;
 
-    ListNode *getNodeByValue(int element);
     void createFirstNode(int element);
     void insertAfter(ListNode *prevNode, int element);
     void deleteAtBegin();
@@ -28,6 +27,7 @@ private:
     bool deleteNode(ListNode *node);
 
 public:
+    ListNode *getNodeByValue(int element);
     void insertAfter(int prevValue, int element);
     std::string toString();
     void addAtBegin(int element);

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/E1.dir/BSTTree.cpp.o"
+  "CMakeFiles/E1.dir/Menu.cpp.o"
   "CMakeFiles/E1.dir/MyArray.cpp.o"
   "CMakeFiles/E1.dir/MyHeap.cpp.o"
   "CMakeFiles/E1.dir/MyList.cpp.o"

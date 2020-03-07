@@ -10,10 +10,11 @@ class MyHeap {
 
 private:
     int *storage;
-    int size, lChild, rChild;
+    int size, lChild, rChild, toSwap;
     std::string cr, cl, cp, heapRep;
 
     void printBT(std::string sp, std::string sn, int v);
+    void heapify(int index);
 
 public:
     MyHeap(int buffer);
@@ -22,7 +23,6 @@ public:
     void push(int value);
     void pop(int value);
     int getIndex(int value);
-    void repairDown(int index);
     void clear();
     bool readFromFile(std::string filename);
 

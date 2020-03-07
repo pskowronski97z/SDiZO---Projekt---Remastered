@@ -123,6 +123,60 @@ E1/fast:
 	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/build
 .PHONY : E1/fast
 
+BSTTree.o: BSTTree.cpp.o
+
+.PHONY : BSTTree.o
+
+# target to build an object file
+BSTTree.cpp.o:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/BSTTree.cpp.o
+.PHONY : BSTTree.cpp.o
+
+BSTTree.i: BSTTree.cpp.i
+
+.PHONY : BSTTree.i
+
+# target to preprocess a source file
+BSTTree.cpp.i:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/BSTTree.cpp.i
+.PHONY : BSTTree.cpp.i
+
+BSTTree.s: BSTTree.cpp.s
+
+.PHONY : BSTTree.s
+
+# target to generate assembly for a file
+BSTTree.cpp.s:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/BSTTree.cpp.s
+.PHONY : BSTTree.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/E1.dir/build.make CMakeFiles/E1.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 MyArray.o: MyArray.cpp.o
 
 .PHONY : MyArray.o
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... E1"
 	@echo "... edit_cache"
+	@echo "... BSTTree.o"
+	@echo "... BSTTree.i"
+	@echo "... BSTTree.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... MyArray.o"
 	@echo "... MyArray.i"
 	@echo "... MyArray.s"

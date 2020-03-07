@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/BSTTree.h
+string
+-
+
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/Menu.h
+string
+-
+MyArray.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
+MyList.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
+MyHeap.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyHeap.h
+BSTTree.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/BSTTree.h
+
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
 string
 -
@@ -19,12 +35,6 @@ string
 -
 
 /home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/main.cpp
-iostream
--
-headers/MyArray.h
-/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h
-headers/MyList.h
-/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyList.h
-headers/MyHeap.h
-/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyHeap.h
+headers/Menu.h
+/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/Menu.h
 

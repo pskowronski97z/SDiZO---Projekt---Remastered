@@ -11,11 +11,9 @@ MyHeap::MyHeap(int buffer) {
     lChild = 0;
     rChild = 0;
     cr = cl = cp = "  ";
-    cr[0] = '+';
-    cr[1] = '~';
-    cl[0] = '+';
-    cl[1] = '-';
-    cp[0] = '|';
+    cr = "┌╴";
+    cl = "└╴";
+    cp = "| ";
     heapRep = "";
 }
 
@@ -80,19 +78,22 @@ void MyHeap::pop(int value) {
         }
         storage[index] = storage[size - 1];
         size--;
-        repairDown(index);
+        heapify(index);
     }
 }
 
-void MyHeap::repairDown(int index) {
+void MyHeap::heapify(int index) {
     lChild = 2 * index + 1;
     rChild = 2 * index + 2;
-    if ((lChild < size) && (storage[lChild] > storage[index])) {
-        std::swap(storage[index], storage[lChild]);
-        repairDown(lChild);
-    } else if ((rChild < size) && (storage[rChild] > storage[index])) {
-        std::swap(storage[index], storage[rChild]);
-        repairDown(rChild);
+    if ((lChild < size) && (storage[lChild] > storage[index]))
+        toSwap = lChild;
+    else
+        toSwap = index;
+    if ((rChild < size) && (storage[rChild] > storage[toSwap]))
+        toSwap = rChild;
+    if (toSwap != index) {
+        std::swap(storage[index], storage[toSwap]);
+        heapify(toSwap);
     }
 }
 

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/BSTTree.cpp">
+			<Option target="E1"/>
+		</Unit>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/Menu.cpp">
+			<Option target="E1"/>
+		</Unit>
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyArray.cpp">
 			<Option target="E1"/>
 		</Unit>
@@ -87,6 +93,12 @@
 			<Option target="E1"/>
 		</Unit>
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/cmake-build-debug/MyList.cpp">
+			<Option target="E1"/>
+		</Unit>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/BSTTree.h">
+			<Option target="E1"/>
+		</Unit>
+		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/Menu.h">
 			<Option target="E1"/>
 		</Unit>
 		<Unit filename="/home/pskowronski/Repos/SDiZO-Projekt-Remastered/E1/headers/MyArray.h">
